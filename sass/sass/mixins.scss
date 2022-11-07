@@ -1,0 +1,14 @@
+@mixin flexM($space) {
+  display: flex;
+  justify-content: $space;
+}
+
+@mixin blocksStyle($padd..., $wid, $bgBlock, $heigt) {
+  padding: $padd;
+  width: $wid;
+  background-color: $bgBlock;
+  border: 1px solid;
+  height: $heigt;
+  color: white;
+  flex-wrap: wrap;
+}
